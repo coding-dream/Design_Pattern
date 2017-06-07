@@ -8,19 +8,29 @@
 一、五种创建型模式如下：
 
 工厂方法模式factory_method
+
 抽象工厂模式abstract_factory
+
 单例模式singleton
+
 建造者模式builder
+
 原型模式prototype
 
 二、结构型模式如下：
 
 适配器模式adapter
+
 桥接模式bridge
+
 合成模式composite
+
 装饰器模式decorator
+
 门面模式facade
+
 代理模式proxy
+
 享元模式flyweight
 
 三、行为型模式如下：
