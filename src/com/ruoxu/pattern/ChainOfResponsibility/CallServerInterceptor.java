@@ -4,8 +4,8 @@ public class CallServerInterceptor implements Interceptor{
 
 	@Override
 	public Response intercept(Chain chain) {
-		// ÕæÕı·¢ËÍÇëÇóµÄÀ¹½ØÆ÷(ÎªÁË¼òµ¥£¬ÕâÀïÄ£ÄâResponse)
-		System.out.println("=========À¹½ØÆ÷3(before)========="+chain.request());
+		//æ¨¡æ‹ŸçœŸå®è¯·æ±‚
+		System.out.println("=========æ‹¦æˆªå™¨3(before)========="+chain.request());
 		
 		Response response = new Response();
 		response.setBody("<div>hello</div>");

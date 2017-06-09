@@ -8,10 +8,10 @@ public class Demo {
 			
 			@Override
 			public Response intercept(Chain chain) {
-				System.out.println("=========À¹½ØÆ÷1(before)========="+chain.request());
+				System.out.println("=========æ‹¦æˆªå™¨1(before)========="+chain.request());
 				Request change = chain.request().addHeader("Cookie: PHPSESSION=CDLJFE");
 				Response response = chain.proceed(change);
-				System.out.println("=========À¹½ØÆ÷1(after)========="+response);
+				System.out.println("=========æ‹¦æˆªå™¨1(after)========="+response);
 				response = response.append("<span>title</span>");
 				return response;
 			}
@@ -20,10 +20,10 @@ public class Demo {
 					
 					@Override
 					public Response intercept(Chain chain) {
-						System.out.println("=========À¹½ØÆ÷2(before)========="+chain.request());
+						System.out.println("=========æ‹¦æˆªå™¨2(before)========="+chain.request());
 						Request change = chain.request().addHeader("Connection: keep-live");
 						Response response = chain.proceed(change);
-						System.out.println("=========À¹½ØÆ÷2(after)========="+response);
+						System.out.println("=========æ‹¦æˆªå™¨2(after)========="+response);
 						response = response.append("<a href='http://baidu.com'/>");
 						return response;
 					}
