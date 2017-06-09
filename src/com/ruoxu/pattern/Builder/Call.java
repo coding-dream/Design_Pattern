@@ -1,4 +1,4 @@
-package com.ruoxu.pattern.Builder;
+package com.ruoxu.pattern.builder;
 
 import java.io.IOException;
 

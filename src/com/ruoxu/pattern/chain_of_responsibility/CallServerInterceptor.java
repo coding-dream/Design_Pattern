@@ -1,4 +1,4 @@
-package com.ruoxu.pattern.ChainOfResponsibility;
+package com.ruoxu.pattern.chain_of_responsibility;
 
 public class CallServerInterceptor implements Interceptor{
 

@@ -1,4 +1,4 @@
-package com.ruoxu.pattern.ChainOfResponsibility;
+package com.ruoxu.pattern.chain_of_responsibility;
 
 import java.util.ArrayList;
 import java.util.List;
