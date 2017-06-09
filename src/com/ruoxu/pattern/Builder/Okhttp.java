@@ -1,4 +1,4 @@
-package com.ruoxu.pattern.builder;
+package com.ruoxu.pattern.Builder;
 
 import java.util.ArrayList;
 import java.util.List;
