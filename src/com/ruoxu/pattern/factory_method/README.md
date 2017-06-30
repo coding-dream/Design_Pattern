@@ -1,2 +1,7 @@
 ## 工厂方法模式和抽象工厂模式区别
-![](abstrat_method_diff.png)
+简单工厂模式
+![](diff1.png)
+工厂方法模式
+![](diff2.png)
+抽象工厂模式
+![](diff3.png)
