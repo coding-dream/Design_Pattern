@@ -23,6 +23,9 @@ package com.ruoxu.pattern.adapter;
  */
 public class Demo {
 	public static void main(String[] args) {
+		Greet michael_jackson = new TranslatorAdapter(new ChinaStudent());
+		michael_jackson.say("hello");
+		
 		
 	}
 }
