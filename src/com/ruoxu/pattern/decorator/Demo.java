@@ -10,6 +10,20 @@ package com.ruoxu.pattern.decorator;
  */
 public class Demo {
 	public static void main(String[] args) {
+		Person boy = new Boy();
+		ClothDecorator boyDecorator1 = new ExpensiveClothDecorator(boy);
+		boyDecorator1.dressed();
+		
+		System.out.println();
+		
+		ClothDecorator boyDecorator2 = new CheapClothDecorator(boy);
+		boyDecorator2.dressed();
+		
+		System.out.println();
+		
+//		Person girl = new Girl();
+//		ClothDecorator girlDecorator = new ExpensiveClothDecorator(girl);
+//		girlDecorator.dressed();
 		
 	}
 }
