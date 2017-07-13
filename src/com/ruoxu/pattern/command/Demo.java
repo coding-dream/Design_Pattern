@@ -14,7 +14,7 @@ package com.ruoxu.pattern.command;
  * 注意：敏捷开发原则告诉我们，不要为代码添加基于猜测的，实际不需要的功能。如果不清楚一个系统是否需要命令模式，一般就不要急着去实现它，
  * 事实上，在需要的时候通过重构实现这个模式并不困难。
  */
-public class Demo {// Client，比如说【人】
+public class Demo {// demo指的就是client(人)
 	public static void main(String[] args) {
 		Receiver receiver = new Receiver();// 接收者角色，如【关机命令的底层逻辑】
 		Command command = new ConcreteCommand(receiver);// 命令角色，如【关机命令的 执行方法，cmd命令】
